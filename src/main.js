@@ -6,6 +6,10 @@ import VueRouter from 'vue-router';
 // tem que vir entre chaves, porque não é default
 import { routes } from './routes';
 
+
+// importando o arquivo `Transform.js`.
+import './directives/Transform';
+
 Vue.use(VueResource)
 Vue.use(VueRouter)
 
